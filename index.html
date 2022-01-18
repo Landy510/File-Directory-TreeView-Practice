@@ -1,0 +1,35 @@
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.0.7/css/all.css"
+    />
+  </head>
+  <body>
+    <h1 class="ml-1">資料夾樹狀結構!</h1>
+    <div class="folder-level cursor-pointer ml-1">
+      <p class="folder-level-name">
+        <i class="fas fa-folder is-open"></i>
+        <i class="fas fa-folder-open is-close"></i>
+        <span>第一層</span>
+      </p>
+      <div class="folder-level-2 is-close">
+        <p class="folder-level-2-name">
+          <i class="fas fa-folder is-open"></i>
+          <i class="fas fa-folder-open is-close"></i>
+          <span>第二層</span>
+        </p>
+        <div class="folder-level-3">
+          <p class="folder-level-3-name">
+            <i class="fas fa-folder is-open"></i>
+            <i class="fas fa-folder-open is-close"></i>
+            <span>第三層</span>
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
